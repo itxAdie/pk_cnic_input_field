@@ -41,7 +41,6 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           children: [
             PKCNICInputField(
-              cursorColor: Colors.black,
               onChanged: (value) {
                 cnic = value;
                 setState(() {});

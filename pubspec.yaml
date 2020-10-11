@@ -1,7 +1,6 @@
 name: pk_cnic_input_field
 description: Takes input in the Pakistani CNIC format
-version: 0.0.1
-author: Zubaria Ayub <zubariaayub634@gmail.com>
+version: 0.0.2
 homepage: https://github.com/zubariaayub634/pk_cnic_input_field
 
 environment:

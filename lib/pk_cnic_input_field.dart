@@ -10,8 +10,8 @@ class PKCNICInputField extends StatelessWidget {
   final prefixIconColor;
   PKCNICInputField(
       {@required this.onChanged,
-      this.cursorColor = Colors.white,
-      this.prefixIconColor = Colors.white});
+      this.cursorColor = Colors.black,
+      this.prefixIconColor = Colors.black});
 
   @override
   Widget build(BuildContext context) {
@@ -29,7 +29,7 @@ class PKCNICInputField extends StatelessWidget {
         border: InputBorder.none,
       ),
       inputFormatters: [
-        WhitelistingTextInputFormatter.digitsOnly,
+        FilteringTextInputFormatter.digitsOnly,
         _mobileFormatter
       ],
     );
