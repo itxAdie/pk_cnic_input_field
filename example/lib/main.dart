@@ -48,7 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 setState(() {});
               },
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
             Text("Your CNIC is " + cnic),

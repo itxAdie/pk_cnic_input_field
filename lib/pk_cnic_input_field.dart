@@ -9,7 +9,7 @@ class PKCNICInputField extends StatelessWidget {
   final cursorColor;
   final prefixIconColor;
   PKCNICInputField(
-      {@required this.onChanged,
+      {required this.onChanged,
       this.cursorColor = Colors.black,
       this.prefixIconColor = Colors.black});
 

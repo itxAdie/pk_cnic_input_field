@@ -6,3 +6,8 @@
 
 * Adds example
 * Removes deprecated code
+
+## [1.0.0] - 4th February 2022
+
+* Upgrades example project to V2 Android Embedding
+* Migrates package to null safety

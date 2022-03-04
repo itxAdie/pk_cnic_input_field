@@ -1,11 +1,11 @@
 name: pk_cnic_input_field
 description: Takes input in the Pakistani CNIC format
-version: 0.0.2
+version: 1.0.0
 homepage: https://github.com/zubariaayub634/pk_cnic_input_field
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
-  flutter: ">=1.17.0 <2.0.0"
+  sdk: '>=2.16.1 <3.0.0'
+  flutter: ">=1.17.0"
 
 dependencies:
   flutter:
@@ -14,6 +14,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  test: ^1.19.5
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
