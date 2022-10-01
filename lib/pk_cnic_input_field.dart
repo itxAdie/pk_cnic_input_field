@@ -5,11 +5,16 @@ import 'package:flutter/services.dart';
 
 class PKCNICInputField extends StatelessWidget {
   final onChanged;
+  final controller;
+  final keyboardType;
+  final decoration;
   final _mobileFormatter = NumberTextInputFormatter();
   final cursorColor;
   final prefixIconColor;
   PKCNICInputField(
       {required this.onChanged,
+       this.controller,this.keyboardType,
+       this.decoration,
       this.cursorColor = Colors.black,
       this.prefixIconColor = Colors.black});
 
